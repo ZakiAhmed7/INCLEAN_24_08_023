@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="base_url">http://13.235.206.126/</string>
+    <string name="projectNameOne">Project Name 1</string>
+    <string name="createdAtSomeX">Created date: 20-12-2021</string>
+    <string name="actions">Actions</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="sync">Sync</string>
+    <string name="help">Help</string>
+    <string name="baseline_survey">Baseline Survey</string>
+    <string name="endline_survey">Endline Survey</string>
+    <string name="draw_polygon">Draw Polygon</string>
+    <string name="draw_line">Draw Line</string>
+    <string name="getProjects">http://13.235.206.126/api/project/</string>
+    <string name="getQuesltions">http://13.235.206.126/api/survey/</string>
+    <string name="sync_url">http://13.235.206.126/api/survey</string>
+    <string name="getSurvey">http://13.235.206.126/api/survey/</string>
+
+</resources>

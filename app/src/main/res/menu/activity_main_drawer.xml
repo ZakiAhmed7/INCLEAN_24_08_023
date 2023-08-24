@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn= "navigation_view">
+        <item
+            android:id= "@+id/home"
+            android:icon= "@drawable/home_24"
+            android:title= "@string/home"
+       />
+        <item
+            android:id= "@+id/about_app_menu"
+            android:icon= "@drawable/about_app"
+            android:title= "@string/about_app" />
+<!--        <item-->
+<!--            android:id= "@+id/update_app_menu"-->
+<!--            android:icon= "@drawable/update_app"-->
+<!--            android:title= "@string/update_app" />-->
+        <item
+            android:id= "@+id/logout_menu"
+            android:icon= "@drawable/logout"
+            android:title= "@string/logout" />
+</menu>

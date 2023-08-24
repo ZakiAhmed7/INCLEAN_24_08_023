@@ -1,0 +1,38 @@
+<com.google.android.material.card.MaterialCardView android:onClick="add"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:nestedScrollingEnabled="false"
+    android:layout_marginTop="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="12dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:layout_weight="1"
+    android:theme="@style/Theme.MaterialComponents.DayNight"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_24"
+            android:padding="10dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="#1B60E1"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
